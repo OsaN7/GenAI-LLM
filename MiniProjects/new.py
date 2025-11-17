@@ -312,4 +312,3 @@ data_skipgram_vectors = np.array([get_sentence_vector(skipgram_model, tokens) fo
 df_cbow = pd.DataFrame(data_cbow_vectors)
 df_skipgram = pd.DataFrame(data_skipgram_vectors)
 
-
